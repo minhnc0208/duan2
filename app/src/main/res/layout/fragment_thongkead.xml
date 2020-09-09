@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="120dp"
-                android:text="Doanh thu"
+                android:text="STATISTICAL"
                 android:textStyle="bold"
                 android:textSize="25dp"
                 android:fontFamily="@font/roboto"></TextView>

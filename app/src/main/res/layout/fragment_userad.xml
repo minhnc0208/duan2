@@ -27,7 +27,7 @@ tools:context=".fragmentadmin.UseradFragment">
         android:src="@drawable/logout"></ImageView>
 <TextView
     android:id="@+id/txthddm"
-    android:text="Khách hàng"
+    android:text="Customer"
     android:textStyle="bold"
     android:textSize="25dp"
     android:fontFamily="@font/roboto"

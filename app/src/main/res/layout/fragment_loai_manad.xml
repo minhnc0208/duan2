@@ -23,14 +23,15 @@
         android:layout_marginTop="10dp"
         android:contentDescription="TODO"
         android:src="@drawable/logout"></ImageView>
+
     <TextView
         android:id="@+id/LoaiMA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="100dp"
-        android:text="Loại món ăn"
         android:fontFamily="@font/roboto"
+        android:text="TYPE FOOD"
         android:textSize="25dp"
         android:textStyle="bold"></TextView>
 
