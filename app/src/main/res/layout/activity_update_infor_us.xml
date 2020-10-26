@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:background="#F1F1F1"
+android:background="#579C95"
 tools:context=".activityuser.Update_inforUSActivity">
 <ImageView
     android:id="@+id/vien"
@@ -26,9 +26,10 @@ tools:context=".activityuser.Update_inforUSActivity">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="80dp"
+    android:layout_marginTop="100dp"
     android:fontFamily="@font/roboto"
-    android:text="UPDATE USER"
+    android:text="CẬP NHẬT TÀI KHOẢN"
+    android:textColor="#FFBF00"
     android:textSize="25dp"
     android:textStyle="bold" />
 <EditText

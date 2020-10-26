@@ -23,7 +23,7 @@ tools:context=".activityuser.GioiThieuActivity">
     android:layout_width="match_parent"
     android:layout_height="531dp"
     android:layout_marginTop="230dp"
-    android:src="@drawable/nen_duoi"></ImageView>
+    ></ImageView>
 
 <ImageView
     android:id="@+id/about"
@@ -56,7 +56,7 @@ tools:context=".activityuser.GioiThieuActivity">
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
         android:fontFamily="@font/roboto"
-        android:src="@drawable/logo1"
+        android:src="@drawable/lg"
         android:textAlignment="center"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -69,7 +69,7 @@ tools:context=".activityuser.GioiThieuActivity">
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/roboto"
-        android:text="Leader:            Nguyen Thi Hue"
+        android:text="Leader:            Nguyễn Cao Minh"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -81,7 +81,7 @@ tools:context=".activityuser.GioiThieuActivity">
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/roboto"
-        android:text="Member:          Trần Thế Pháp"
+        android:text="Member:          Hồ Xuân Quang"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -93,7 +93,7 @@ tools:context=".activityuser.GioiThieuActivity">
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/roboto"
-        android:text="Member:          Nguyễn Hoàng Du"
+        android:text="Member:          Võ Tấn Duy"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -105,7 +105,19 @@ tools:context=".activityuser.GioiThieuActivity">
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/roboto"
-        android:text="Member:          Nguyễn Hoàng Huy"
+        android:text="Member:          Nguyễn Thanh Lâm"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Member:          Nguyễn Minh Tuấn"
         android:textSize="20dp"
         android:textStyle="bold" />
 </RelativeLayout>

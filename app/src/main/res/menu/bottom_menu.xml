@@ -4,12 +4,12 @@
 
     <item
         android:id="@+id/itemmenu"
-        android:title="Menu"
+        android:title="TRANG CHỦ"
         android:icon="@drawable/home"
         />
     <item
         android:id="@+id/cart"
-        android:title="Cart"
+        android:title="GIỎ HÀNG"
         android:icon="@drawable/cart1"
 
 
@@ -20,7 +20,7 @@
 
     <item
         android:id="@+id/setting"
-        android:title="Setting"
+        android:title="CÀI ĐẶT"
         android:icon="@drawable/sett"
         />
 </menu>

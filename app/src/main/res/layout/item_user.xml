@@ -26,7 +26,7 @@
             android:layout_marginTop="10dp"
             android:layout_centerVertical="false"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/icons8_user_80px"></ImageView>
+            android:background="@drawable/lg"></ImageView>
         <TextView
             android:id="@+id/tvTenUser"
             android:layout_width="200dp"
@@ -36,7 +36,7 @@
             android:layout_toRightOf="@+id/imageuser"
             android:textStyle="bold"
             android:text="Tên Tài Khoản"
-            android:textColor="#8F8383"
+            android:textColor="#FFBF00"
             android:textSize="20dp"
             ></TextView>
         <TextView
@@ -46,7 +46,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:layout_toRightOf="@+id/imageuser"
-            android:text="User"
+            android:text="Người dùng"
             android:layout_below="@id/tvTenUser"
             android:textColor="#DD0000"
             android:textSize="20dp"

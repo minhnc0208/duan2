@@ -43,7 +43,7 @@
             android:scaleType="centerCrop"
             android:layout_centerVertical="true"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/food"></ImageView>
+            android:background="@drawable/lg"></ImageView>
 
         <TextView
             android:id="@+id/tvTenMAct"
@@ -55,6 +55,7 @@
             android:fontFamily="@font/roboto"
             android:text="BÚN CHẢ"
             android:textSize="20dp"
+            android:textColor="#FFBF00"
             android:textStyle="bold"></TextView>
         <ImageView
             android:id="@+id/imgnhan"

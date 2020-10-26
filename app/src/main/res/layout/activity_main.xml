@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drwlayout"
     android:fitsSystemWindows="true"
-    android:background="#F3EDED"
+    android:background="#579C95"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
@@ -18,8 +18,8 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#FF8619"
-            app:titleTextColor="#FFFF">
+            android:background="#FFBF00"
+            app:titleTextColor="#FFFFFF">
 
         </androidx.appcompat.widget.Toolbar>
 

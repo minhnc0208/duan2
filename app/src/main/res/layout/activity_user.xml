@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     tools:context=".activityuser.UserActivity">
     <ImageView
         android:id="@+id/nentren"
@@ -16,16 +16,15 @@
     <ImageView
         android:id="@+id/nentren1"
         android:layout_width="match_parent"
-        android:layout_height="248dp"
+        android:layout_height="255dp"
         android:layout_marginTop="-12dp"
-        android:src="@drawable/nentren"></ImageView>
+        android:src="@drawable/nenbackgroundtren"></ImageView>
 
     <ImageView
         android:id="@+id/nenduoi"
         android:layout_width="match_parent"
-        android:layout_height="531dp"
-        android:layout_marginTop="230dp"
-        android:src="@drawable/nen_duoi"></ImageView>
+        android:layout_height="536dp"
+        android:layout_marginTop="230dp"></ImageView>
 
     <ImageView
         android:id="@+id/avatar"
@@ -34,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="110dp"
         android:background="@color/white"
-        android:foreground="@drawable/icons8_user_80px"></ImageView>
+        android:foreground="@drawable/lg"></ImageView>
     <ImageView
         android:id="@+id/vien"
         android:layout_width="wrap_content"
@@ -70,6 +69,7 @@
         android:layout_toRightOf="@+id/tvTenTk"
         android:textAlignment="center"
         android:textSize="25dp"
+        android:textColor="#ffc100"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/tvSoDT"
@@ -92,6 +92,7 @@
         android:layout_toRightOf="@+id/tvTenTk"
         android:textAlignment="center"
         android:textSize="25dp"
+        android:textColor="#ffc100"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/tvGT"
@@ -114,6 +115,7 @@
         android:layout_toRightOf="@+id/tvTenTk"
         android:textAlignment="center"
         android:textSize="25dp"
+        android:textColor="#ffc100"
         android:textStyle="bold" />
 
     <Button

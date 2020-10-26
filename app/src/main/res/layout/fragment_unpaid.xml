@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#579C95"
     tools:context=".fragmentadmin.UnpaidFragment">
 
 
@@ -13,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
-        android:text="BILL"
+        android:text="HÓA ĐƠN"
         android:textSize="25dp"
+        android:textColor="#FFBF00"
         android:fontFamily="@font/roboto"
         android:textStyle="bold"></TextView>
 

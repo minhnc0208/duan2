@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     tools:context=".activityuser.BillActivity">
     <ImageView
         android:id="@+id/imgvien"
@@ -28,6 +28,7 @@
     android:layout_marginTop="50dp"
     android:fontFamily="@font/roboto"
     android:text="Hóa đơn đã mua"
+    android:textColor="#FFBF00"
     android:textSize="25dp"
     android:textStyle="bold"></TextView>
 

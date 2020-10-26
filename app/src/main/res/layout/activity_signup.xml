@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     tools:context=".SignupActivity">
+
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="223dp"
+        android:layout_height="145dp"
         android:layout_marginLeft="-20dp"
         android:layout_marginTop="-25dp"
         android:src="@drawable/logosignup"></ImageView>

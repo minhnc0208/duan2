@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="hue.com.myapplication">
+    package="PRO2052_DATN.com.myapplication">
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo1"
-        android:label="My Restaurant"
-        android:roundIcon="@drawable/logo1"
+        android:label="Order Food App"
+        android:roundIcon="@drawable/lg"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:replace="android:icon">
-        <activity android:name=".activityuser.Update_inforUSActivity"></activity>
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.Update_inforUSActivity"></activity>
         <activity android:name=".Fragment.Update_inforUSActivity" />
-        <activity android:name=".activityadmin.Showinfor_UsadActivity" />
-        <activity android:name=".activityuser.BillUserActivity" />
-        <activity android:name=".activityadmin.UpdateRulerActivity" />
-        <activity android:name=".activityuser.GioiThieuActivity" />
-        <activity android:name=".activityuser.DoiMK_Activity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityadmin.Showinfor_UsadActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.BillUserActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityadmin.UpdateRulerActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.GioiThieuActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.DoiMK_Activity" />
 
-        <activity android:name=".StartActivity">
+        <activity android:name="PRO2052_DATN.com.myapplication.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activityadmin.ShowbillDetailadActivity" />
-        <activity android:name=".activityuser.ShowBillDetailsActivity" />
-        <activity android:name=".activityuser.BillActivity" />
-        <activity android:name=".activityuser.ThanhToan_Activity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".activityuser.CartActivity" />
-        <activity android:name=".activityadmin.MonAnad1Activity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityadmin.ShowbillDetailadActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.ShowBillDetailsActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.BillActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.ThanhToan_Activity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.SignupActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.LoginActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.CartActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityadmin.MonAnad1Activity" />
 
-        <activity android:name=".activityuser.ThongTin_MonAnActivity" />
-        <activity android:name=".activityuser.MonAnActivity" />
-        <activity android:name=".TrangChu2Activity" />
-        <activity android:name=".activityuser.UserActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.ThongTin_MonAnActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.MonAnActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.TrangChu2Activity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.UserActivity" />
 
-        <activity android:name=".activityuser.CategoryActivity" />
-        <activity android:name=".TrangChuActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.activityuser.CategoryActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.TrangChuActivity" />
+        <activity android:name="PRO2052_DATN.com.myapplication.MainActivity" />
 
         <service
-            android:name=".service.ListenOrderService"
+            android:name="PRO2052_DATN.com.myapplication.service.ListenOrderService"
             android:enabled="true"
             android:exported="true" />
         <meta-data

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     tools:context=".activityuser.CartActivity">
 
     <ImageView
@@ -27,9 +27,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imgnen"
         android:layout_marginLeft="40dp"
-        android:text="CART"
+        android:text="THANH TOÁN"
         android:fontFamily="@font/roboto"
         android:textSize="25dp"
+        android:textColor="#FFBF00"
         android:textStyle="bold"></TextView>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -48,23 +49,23 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/btnPayc"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="10dp"
         android:text="0 VNĐ"
-        android:textColor="#F44336"
+        android:textColor="#FFBF00"
         android:textSize="25dp"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"></TextView>
 
     <TextView
         android:id="@+id/tvTotalc"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
         android:layout_above="@id/btnPayc"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="10dp"
-        android:text="Total:"
+        android:layout_marginLeft="50dp"
+        android:text="Tổng cộng:"
         android:textSize="25dp"
+        android:textColor="@color/White"
         android:fontFamily="@font/roboto"
         android:textStyle="bold"></TextView>
 

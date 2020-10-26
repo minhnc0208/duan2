@@ -23,7 +23,7 @@
             android:layout_height="50dp"
             android:layout_marginLeft="13dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/food"></ImageView>
+            android:background="@drawable/foodma"></ImageView>
         <TextView
             android:id="@+id/tvtenmatk"
             android:layout_width="95dp"
@@ -32,7 +32,7 @@
             android:textSize="15dp"
             android:layout_below="@id/imageMAtk"
             android:layout_marginTop="5dp"
-            android:textColor="#000"
+            android:textColor="#000000"
             android:textStyle="bold"
             android:textAlignment="center"></TextView>
         <TextView

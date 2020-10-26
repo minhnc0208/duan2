@@ -43,7 +43,7 @@
             android:scaleType="centerCrop"
             android:layout_centerVertical="true"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/com"></ImageView>
+            android:background="@drawable/lg"></ImageView>
 
 
         <TextView
@@ -55,6 +55,7 @@
             android:layout_toRightOf="@+id/imagefoodma"
             android:text="Bún"
             android:textSize="25dp"
+            android:textColor="#FFBF00"
             android:textStyle="bold"></TextView>
 
         <TextView

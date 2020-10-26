@@ -2,7 +2,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
@@ -31,7 +31,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="100dp"
         android:fontFamily="@font/roboto"
-        android:text="TYPE FOOD"
+        android:text="LOẠI MÓN ĂN"
+        android:textColor="#FFBF00"
         android:textSize="25dp"
         android:textStyle="bold"></TextView>
 

@@ -8,10 +8,10 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabbill"
-        app:tabTextColor="#ffff"
+        app:tabTextColor="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF8619"
+        android:background="#579C95"
         ></com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager

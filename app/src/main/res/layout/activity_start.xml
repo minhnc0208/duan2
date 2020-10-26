@@ -4,30 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background2"
+    android:background="#579C95"
     tools:context=".StartActivity">
-
 
 
     <ImageView
         android:id="@+id/logo1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="168dp"
-        android:src="@drawable/logo4"
+        android:src="@drawable/omf3"
         app:layout_constraintBottom_toTopOf="@+id/btnStart"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457"></ImageView>
+        app:layout_constraintVertical_bias="0.433"></ImageView>
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="70dp"
-        android:background="@drawable/box6"
-        android:text="GET STARTED"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/start"
         android:textColor="@color/White"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

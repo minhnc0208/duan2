@@ -10,19 +10,19 @@
             />
         <item
             android:id="@+id/User"
-            android:title="User"
+            android:title="Tài khoản"
             android:icon="@drawable/user"
 
             />
         <item
             android:id="@+id/Cart"
-            android:title=" Cart"
+            android:title="Thanh toán"
             android:icon="@drawable/cart"
             />
 
         <item
             android:id="@+id/orders"
-            android:title="Orders"
+            android:title="Gọi món"
             android:icon="@drawable/oders"
             />
 
@@ -33,7 +33,7 @@
 
         <item
             android:id="@+id/setting"
-            android:title="Setting"
+            android:title="Cài đặt"
             android:icon="@drawable/setting"
             />
 
@@ -41,6 +41,6 @@
         <item
             android:icon="@drawable/exit"
             android:id="@+id/thoat"
-            android:title="Sign out"/>
+            android:title="Đăng xuất"/>
     </group>
 </menu>

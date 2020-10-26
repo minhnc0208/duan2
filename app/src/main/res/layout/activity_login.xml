@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nenlogin"
+    android:background="#579C95"
     tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-20dp"
-        android:layout_marginTop="-25dp"
-        android:src="@drawable/wel"></ImageView>
+        android:layout_marginBottom="430dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/omf3">
+
+    </ImageView>
     <ImageView
         android:id="@+id/tron1"
         android:layout_width="wrap_content"
@@ -50,6 +52,9 @@
         android:layout_alignLeft="@+id/edtPass"
         android:layout_marginTop="10dp"
         android:text="Nhớ mật khẩu"
+        android:textColor="#FFBF00"
+        android:textSize="20dp"
+        android:shadowColor="@color/White"
         />
 
     <Button

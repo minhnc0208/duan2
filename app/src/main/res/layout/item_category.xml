@@ -27,6 +27,7 @@
             android:src="@drawable/brg6"
             android:scaleType="centerCrop"
             android:layout_marginTop="122dp"
+            android:outlineSpotShadowColor="@color/White"
             ></ImageView>
 
         <TextView
@@ -34,10 +35,11 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
-            android:text="KEM"
+            android:text="CƠM"
             android:textAlignment="viewEnd"
-            android:textColor="#FFF"
+
             android:textSize="30dp"
+            android:textColor="#FFBF00"
             android:textStyle="bold|italic"></TextView>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

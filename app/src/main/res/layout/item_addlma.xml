@@ -43,7 +43,7 @@
             android:scaleType="centerCrop"
             android:layout_centerVertical="true"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/com"></ImageView>
+            android:background="@drawable/lg"></ImageView>
 
 
         <TextView
@@ -55,7 +55,7 @@
             android:layout_toRightOf="@+id/imagefoodlma"
             android:fontFamily="@font/roboto"
             android:text="Bún"
-            android:textColor="#F44336"
+            android:textColor="#FFBF00"
             android:textSize="25dp"
             android:textStyle="bold"></TextView>
     </RelativeLayout>

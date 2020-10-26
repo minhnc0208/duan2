@@ -2,7 +2,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1F1F1"
+    android:background="#579C95"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -29,11 +29,12 @@
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="100dp"
-        android:text="MENU"
         android:fontFamily="@font/roboto"
+        android:text="TRANG CHỦ"
         android:textSize="25dp"
+        android:textColor="#FFBF00"
         android:textStyle="bold"></TextView>
 
     <androidx.recyclerview.widget.RecyclerView

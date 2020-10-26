@@ -10,14 +10,14 @@
     <ImageView
         android:id="@+id/nentren"
         android:layout_width="match_parent"
-        android:layout_height="274dp"
+        android:layout_height="326dp"
         android:layout_marginTop="-50dp"
-        android:src="@drawable/food"></ImageView>
+        android:src="@drawable/nenbackgroundtren"></ImageView>
 
     <ImageView
         android:id="@+id/nentren1"
         android:layout_width="match_parent"
-        android:layout_height="248dp"
+        android:layout_height="245dp"
         android:layout_marginTop="-12dp"
         android:src="@drawable/nentren"></ImageView>
 
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="531dp"
         android:layout_marginTop="230dp"
-        android:src="@drawable/nen_duoi"></ImageView>
+        android:background="#579C95"></ImageView>
 
     <ImageView
         android:id="@+id/setting"

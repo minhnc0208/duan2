@@ -17,7 +17,7 @@
             android:layout_width="190dp"
             android:scaleType="centerCrop"
             android:layout_height="200dp"
-            android:src="@drawable/foodma"></ImageView>
+            android:src="@drawable/ff2"></ImageView>
 
         <TextView
             android:id="@+id/tvTenMA"
@@ -26,7 +26,7 @@
             android:layout_marginTop="200dp"
             android:text="BÚN CHẢ"
             android:textAlignment="center"
-            android:textColor="#4B4343"
+            android:textColor="#FFBF00"
             android:textSize="20dp"
             android:textStyle="bold"></TextView>
 

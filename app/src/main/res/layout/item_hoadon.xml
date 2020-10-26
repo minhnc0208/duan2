@@ -28,7 +28,7 @@
             android:layout_marginTop="10dp"
             android:layout_centerVertical="false"
             android:layout_marginLeft="25dp"
-            android:background="@drawable/food"></ImageView>
+            android:background="@drawable/lg"></ImageView>
 
         <TextView
             android:id="@+id/tvTenHD"
@@ -39,7 +39,7 @@
             android:layout_toRightOf="@+id/imagefoodhd1"
             android:fontFamily="@font/roboto"
             android:text="đơn hàng"
-            android:textColor="#000"
+            android:textColor="#FF9800"
             android:textSize="20dp"></TextView>
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@+id/imagefoodhd1"
             android:text="COD"
-            android:textColor="#8F8383"
+            android:textColor="#00B0FF"
             android:textSize="15dp"></TextView>
         <TextView
             android:id="@+id/tvdchd"
@@ -62,7 +62,7 @@
             android:layout_toRightOf="@+id/imagefoodhd1"
             android:text="dia chi"
             android:layout_below="@id/tvhttt"
-            android:textColor="#8F8383"
+            android:textColor="#DA00FF"
             android:textSize="15dp"
             ></TextView>
 
@@ -75,8 +75,8 @@
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@+id/imagefoodhd1"
             android:text="1.000.000 VNĐ"
-            android:textColor="#F44336"
-            android:textSize="20dp"
+            android:textColor="#FF1100"
+            android:textSize="18dp"
             android:textStyle="bold"></TextView>
 
         <TextView
@@ -87,7 +87,7 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="17dp"
             android:text="11-12-2019"
-            android:textColor="#4CAF50"
+            android:textColor="#FFBF00"
             android:textSize="15dp"
             android:textStyle="bold"></TextView>
 
